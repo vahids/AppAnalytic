@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AppAnalytic'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AppAnalytic.'
+  s.summary          = 'Library for appanalytics.ir'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AppAnalytic'
+  s.homepage         = 'https://github.com/vahids/AppAnalytic'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vahid Sayad' => 'vahidgiga@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AppAnalytic.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vahids/AppAnalytic.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

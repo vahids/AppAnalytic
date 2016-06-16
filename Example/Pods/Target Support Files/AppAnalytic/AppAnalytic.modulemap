@@ -1,0 +1,6 @@
+framework module AppAnalytic {
+  umbrella header "AppAnalytic-umbrella.h"
+
+  export *
+  module * { export * }
+}
